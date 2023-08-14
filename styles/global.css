@@ -1,0 +1,22 @@
+body{
+  background-color: var(--background-body);
+  color: var(--primary);
+  font: 400 16px "Inter", sans-serif;
+}
+.app{
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  gap: 48px;
+
+  width: 100%;
+  max-width: 1366px;
+
+  padding: 0 24px;
+  margin: 160px auto 100px;
+}
+
+section{
+  background-color: pink;
+  height: 400px;
+}
