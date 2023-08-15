@@ -19,6 +19,9 @@
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
 }
 
 .social__link:hover{
