@@ -36,7 +36,8 @@ const loadProjects = (projects) => {
     // add tags
     elemProject.appendChild(elemTags);
 
-    
+    elemProjects.appendChild(elemProject);
+
 
   });
 
